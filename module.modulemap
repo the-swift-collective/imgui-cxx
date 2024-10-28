@@ -8,3 +8,9 @@ module imgui_cxx {
 
   export *
 }
+
+module imgui_freetype {
+  header "misc/freetype/imgui_freetype.h"
+
+  export *
+}
