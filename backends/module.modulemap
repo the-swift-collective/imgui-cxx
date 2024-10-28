@@ -1,0 +1,11 @@
+module backend_glfw {
+  header "imgui_impl_glfw.h"
+
+  export *
+}
+
+module backend_metal {
+  header "imgui_impl_metal.h"
+
+  export *
+}

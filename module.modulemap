@@ -1,0 +1,10 @@
+module imgui_cxx {
+  header "imconfig.h"
+  header "imgui.h"
+  header "imgui_internal.h"
+  header "imstb_rectpack.h"
+  header "imstb_textedit.h"
+  header "imstb_truetype.h"
+
+  export *
+}
