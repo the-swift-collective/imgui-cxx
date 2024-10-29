@@ -61,6 +61,7 @@ Index of this file:
 #if (defined __SSE__ || defined __x86_64__ || defined _M_X64 || (defined(_M_IX86_FP) && (_M_IX86_FP >= 1))) && !defined(IMGUI_DISABLE_SSE)
 #define IMGUI_ENABLE_SSE
 #include <immintrin.h>
+#include <xmmintrin.h> // swift on windows requires this include, even though it's indirectly brought in by <immintrin.h>.
 #endif
 
 // Visual Studio warnings
