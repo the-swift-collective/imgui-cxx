@@ -7,4 +7,4 @@ enum class AppStatus {
   AppStatusFailure = 1
 };
 
-AppStatus run_example(const ImGuiIO &io);
+AppStatus run_example();
